@@ -50,9 +50,9 @@
     }else{
         self.textViewHeight.greaterThanOrEqualTo(@50);
     }
-    if ([self.delegate respondsToSelector:@selector(changeTextViewHeight:andCGSize:)]) {
+    if ([self.delegate respondsToSelector:@selector(changeTextViewHeight:andCGSize:andStr:)]) {
         
-        [self.delegate changeTextViewHeight:_path andCGSize:CGSizeZero];
+        [self.delegate changeTextViewHeight:_path andCGSize:CGSizeZero andStr:@""];
     }
 }
 @end

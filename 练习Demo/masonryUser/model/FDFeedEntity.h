@@ -18,6 +18,7 @@
 @property (nonatomic, copy, readonly) NSString *username;
 @property (nonatomic, copy, readonly) NSString *time;
 @property (nonatomic, copy, readonly) NSString *imageName;
+@property (nonatomic, copy) NSString * textViewStr;
 @property (nonatomic, assign) BOOL isHidden;
 @property (nonatomic, assign) CGSize size;
 

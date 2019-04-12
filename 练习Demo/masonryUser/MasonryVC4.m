@@ -67,23 +67,23 @@
     cell.path = indexPath;
     return cell;
 }
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    
-////    FDFeedEntity * model = _muArray[indexPath.row];
-////    if (model.isHidden) {
-//        //这里是为了处理只刷新高度不走缓存的高度问题
-//        return [tableView fd_heightForCellWithIdentifier:@"MasonryVC4Cell"         configuration:^(id cell) {
-//            
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+//    FDFeedEntity * model = _muArray[indexPath.row];
+//    if (model.isHidden) {
+        //这里是为了处理只刷新高度不走缓存的高度问题
+        return [tableView fd_heightForCellWithIdentifier:@"MasonryVC4Cell"         configuration:^(id cell) {
+            
+            [self configureCell:cell atIndexPath:indexPath];
+        }];
+//    }else{
+//        return [tableView fd_heightForCellWithIdentifier:@"MasonryVC4Cell" cacheByIndexPath:indexPath configuration:^(id cell) {
+//
 //            [self configureCell:cell atIndexPath:indexPath];
 //        }];
-////    }else{
-////        return [tableView fd_heightForCellWithIdentifier:@"MasonryVC4Cell" cacheByIndexPath:indexPath configuration:^(id cell) {
-////
-////            [self configureCell:cell atIndexPath:indexPath];
-////        }];
-////
-////    }
-//}
+//
+//    }
+}
 
 - (void)configureCell:(Masonry4TVCell *)cell atIndexPath:(NSIndexPath *)path{
     
@@ -101,11 +101,15 @@
 //    [_tableView endUpdates];
     
 //    // 刷新方法2：先重新计算高度,然后reload,不是原来的cell实例，只需要调用带缓存的高度返回
-    [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-}
-- (void)changeTextViewHeight:(NSIndexPath *)indexPath andCGSize:(CGSize)size{
+    [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
     
-//    FDFeedEntity * model = _muArray[indexPath.row];
+    // 让展开/收回的Cell居中，酌情加，看效果决定
+//    [_tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
+}
+- (void)changeTextViewHeight:(NSIndexPath *)indexPath andCGSize:(CGSize)size andStr:(nonnull NSString *)str{
+    
+    FDFeedEntity * model = _muArray[indexPath.row];
+    model.textViewStr = str;
 //    model.size = size;
     [_tableView beginUpdates];
     [_tableView endUpdates];

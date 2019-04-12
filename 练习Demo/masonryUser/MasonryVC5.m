@@ -48,7 +48,7 @@
 //    return UITableViewAutomaticDimension;
 //}
 
-- (void)changeTextViewHeight:(NSIndexPath *)indexPath andCGSize:(CGSize)size{
+- (void)changeTextViewHeight:(NSIndexPath *)indexPath andCGSize:(CGSize)size andStr:(nonnull NSString *)str{
     
 //    [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     [self.tableView beginUpdates];

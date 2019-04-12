@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol Masonry4TVCellClickChangeHeight <NSObject>
 
 - (void)changeModel:(NSIndexPath *)indexPath;
-- (void)changeTextViewHeight:(NSIndexPath *)indexPath andCGSize:(CGSize)size;
+- (void)changeTextViewHeight:(NSIndexPath *)indexPath andCGSize:(CGSize)size andStr:(NSString *)str;
 @end
 
 @interface Masonry4TVCell : UITableViewCell<UITextViewDelegate>

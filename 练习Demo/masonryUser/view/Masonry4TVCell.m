@@ -82,6 +82,7 @@
         [self.moreBtn setTitle:@"更多" forState:UIControlStateNormal];
     }
 //
+    _plTextView.text = model.textViewStr;
     CGFloat height = [self.contentLable systemLayoutSizeFittingSize:
                       UILayoutFittingCompressedSize].height;
     if (height >= 60) {
@@ -108,6 +109,10 @@
 
 - (void)textViewDidChange:(UITextView *)textView{
     
+    if ([textView.text isEqualToString:_model.textViewStr]) {
+        
+        return;
+    }
     // 计算 text view 的高度
     CGSize maxSize = CGSizeMake(kScreenWidth - 30, CGFLOAT_MAX);
     CGSize newSize = [textView sizeThatFits:maxSize];
@@ -118,9 +123,9 @@
     }else{
         self.textViewHeight.greaterThanOrEqualTo(@50);
     }
-    if ([self.delegate respondsToSelector:@selector(changeTextViewHeight:andCGSize:)]) {
+    if ([self.delegate respondsToSelector:@selector(changeTextViewHeight:andCGSize:andStr:)]) {
         
-        [self.delegate changeTextViewHeight:_path andCGSize:CGSizeZero];
+        [self.delegate changeTextViewHeight:_path andCGSize:CGSizeZero andStr:textView.text];
     }
 }
 @end

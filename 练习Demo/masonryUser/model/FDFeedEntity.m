@@ -20,6 +20,7 @@
         _username = dictionary[@"username"];
         _time = dictionary[@"time"];
         _imageName = dictionary[@"imageName"];
+        _textViewStr = @"世界你好！hello world！";
         _isHidden = NO;
     }
     return self;
