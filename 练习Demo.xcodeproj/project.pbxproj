@@ -7,15 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00CC2B6225C76650018F999 /* MasonryVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CC2B4225C76650018F999 /* MasonryVC3.m */; };
+		D00CC2B7225C76650018F999 /* MasonryVC3.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00CC2B5225C76650018F999 /* MasonryVC3.xib */; };
+		D00CC2BB225C97070018F999 /* MasonryVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CC2B9225C97070018F999 /* MasonryVC4.m */; };
+		D00CC2C0225C99C20018F999 /* Masonry4TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D00CC2BE225C99C20018F999 /* Masonry4TVCell.m */; };
+		D00CC2C1225C99C20018F999 /* Masonry4TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00CC2BF225C99C20018F999 /* Masonry4TVCell.xib */; };
+		D01123162241E683003C6181 /* ReactiveObjcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D01123142241E683003C6181 /* ReactiveObjcVC.m */; };
+		D01123172241E683003C6181 /* ReactiveObjcVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01123152241E683003C6181 /* ReactiveObjcVC.xib */; };
+		D0145DE4225EEEBC00C260E2 /* MasonryVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = D0145DE3225EEEBC00C260E2 /* MasonryVC5.m */; };
+		D0145DE7225EEF2000C260E2 /* Masonry5TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0145DE6225EEF2000C260E2 /* Masonry5TVCell.m */; };
+		D02780EF22431D82009601FC /* delegateForRACView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02780EE22431D82009601FC /* delegateForRACView.m */; };
+		D02780F2224323CB009601FC /* delegateForRACView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02780F1224323CB009601FC /* delegateForRACView.xib */; };
+		D0286D5D2249BC8300BFFD27 /* MasonryUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0286D5B2249BC8300BFFD27 /* MasonryUserVC.m */; };
+		D0286D5E2249BC8300BFFD27 /* MasonryUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0286D5C2249BC8300BFFD27 /* MasonryUserVC.xib */; };
+		D0286D632249C37500BFFD27 /* MyTVDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0286D622249C37500BFFD27 /* MyTVDataSource.m */; };
+		D0286D672249C79200BFFD27 /* masonryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0286D662249C79200BFFD27 /* masonryModel.m */; };
+		D0286D6E2249CE0500BFFD27 /* MasonryVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0286D6C2249CE0500BFFD27 /* MasonryVC1.m */; };
+		D0286D6F2249CE0500BFFD27 /* MasonryVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0286D6D2249CE0500BFFD27 /* MasonryVC1.xib */; };
+		D034B1D52251AC490025D74E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034B1D42251AC490025D74E /* Test.swift */; };
+		D034B1D72251AE060025D74E /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034B1D62251AE060025D74E /* Test2.swift */; };
+		D0514598224B13C900F11778 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D0514597224B13C900F11778 /* FDFeedEntity.m */; };
+		D051459A224B143C00F11778 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D0514599224B143C00F11778 /* data.json */; };
+		D051459E224B154900F11778 /* MasonryVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = D051459C224B154900F11778 /* MasonryVC2.m */; };
+		D051459F224B154900F11778 /* MasonryVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D051459D224B154900F11778 /* MasonryVC2.xib */; };
+		D05145A4224B15F400F11778 /* Masonry2TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D05145A2224B15F400F11778 /* Masonry2TVCell.m */; };
+		D05145A5224B15F400F11778 /* Masonry2TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05145A3224B15F400F11778 /* Masonry2TVCell.xib */; };
 		D07F040121E83EC300B19E34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D07F040021E83EC300B19E34 /* AppDelegate.m */; };
 		D07F040421E83EC300B19E34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07F040321E83EC300B19E34 /* ViewController.m */; };
 		D07F040721E83EC300B19E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07F040521E83EC300B19E34 /* Main.storyboard */; };
 		D07F040921E83EC800B19E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F040821E83EC800B19E34 /* Assets.xcassets */; };
 		D07F040C21E83EC800B19E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07F040A21E83EC800B19E34 /* LaunchScreen.storyboard */; };
 		D07F040F21E83EC800B19E34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D07F040E21E83EC800B19E34 /* main.m */; };
+		D0EE8C872215015500EA8A37 /* myCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE8C862215015500EA8A37 /* myCustomView.m */; };
+		E0854B21CB56D21DCBF685BE /* libPods-练习Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 864A03A7D79FA2C60E1D48B0 /* libPods-练习Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864A03A7D79FA2C60E1D48B0 /* libPods-练习Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-练习Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D164D5B0DF2F00D6646392 /* Pods-练习Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-练习Demo.debug.xcconfig"; path = "Target Support Files/Pods-练习Demo/Pods-练习Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D00CC2B3225C76650018F999 /* MasonryVC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC3.h; sourceTree = "<group>"; };
+		D00CC2B4225C76650018F999 /* MasonryVC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC3.m; sourceTree = "<group>"; };
+		D00CC2B5225C76650018F999 /* MasonryVC3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasonryVC3.xib; sourceTree = "<group>"; };
+		D00CC2B8225C97070018F999 /* MasonryVC4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC4.h; sourceTree = "<group>"; };
+		D00CC2B9225C97070018F999 /* MasonryVC4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC4.m; sourceTree = "<group>"; };
+		D00CC2BD225C99C20018F999 /* Masonry4TVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry4TVCell.h; sourceTree = "<group>"; };
+		D00CC2BE225C99C20018F999 /* Masonry4TVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry4TVCell.m; sourceTree = "<group>"; };
+		D00CC2BF225C99C20018F999 /* Masonry4TVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Masonry4TVCell.xib; sourceTree = "<group>"; };
+		D01123132241E683003C6181 /* ReactiveObjcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjcVC.h; sourceTree = "<group>"; };
+		D01123142241E683003C6181 /* ReactiveObjcVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveObjcVC.m; sourceTree = "<group>"; };
+		D01123152241E683003C6181 /* ReactiveObjcVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReactiveObjcVC.xib; sourceTree = "<group>"; };
+		D0145DE2225EEEBC00C260E2 /* MasonryVC5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC5.h; sourceTree = "<group>"; };
+		D0145DE3225EEEBC00C260E2 /* MasonryVC5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC5.m; sourceTree = "<group>"; };
+		D0145DE5225EEF2000C260E2 /* Masonry5TVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry5TVCell.h; sourceTree = "<group>"; };
+		D0145DE6225EEF2000C260E2 /* Masonry5TVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry5TVCell.m; sourceTree = "<group>"; };
+		D02780ED22431D82009601FC /* delegateForRACView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delegateForRACView.h; sourceTree = "<group>"; };
+		D02780EE22431D82009601FC /* delegateForRACView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateForRACView.m; sourceTree = "<group>"; };
+		D02780F022431DAE009601FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D02780F1224323CB009601FC /* delegateForRACView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = delegateForRACView.xib; sourceTree = "<group>"; };
+		D0286D5A2249BC8300BFFD27 /* MasonryUserVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryUserVC.h; sourceTree = "<group>"; };
+		D0286D5B2249BC8300BFFD27 /* MasonryUserVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryUserVC.m; sourceTree = "<group>"; };
+		D0286D5C2249BC8300BFFD27 /* MasonryUserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasonryUserVC.xib; sourceTree = "<group>"; };
+		D0286D612249C37500BFFD27 /* MyTVDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTVDataSource.h; sourceTree = "<group>"; };
+		D0286D622249C37500BFFD27 /* MyTVDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTVDataSource.m; sourceTree = "<group>"; };
+		D0286D652249C79200BFFD27 /* masonryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = masonryModel.h; sourceTree = "<group>"; };
+		D0286D662249C79200BFFD27 /* masonryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = masonryModel.m; sourceTree = "<group>"; };
+		D0286D6B2249CE0500BFFD27 /* MasonryVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC1.h; sourceTree = "<group>"; };
+		D0286D6C2249CE0500BFFD27 /* MasonryVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC1.m; sourceTree = "<group>"; };
+		D0286D6D2249CE0500BFFD27 /* MasonryVC1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasonryVC1.xib; sourceTree = "<group>"; };
+		D034B1D32251AC480025D74E /* 练习Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "练习Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D034B1D42251AC490025D74E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		D034B1D62251AE060025D74E /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		D0514596224B13C900F11778 /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedEntity.h; sourceTree = "<group>"; };
+		D0514597224B13C900F11778 /* FDFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedEntity.m; sourceTree = "<group>"; };
+		D0514599224B143C00F11778 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		D051459B224B154900F11778 /* MasonryVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC2.h; sourceTree = "<group>"; };
+		D051459C224B154900F11778 /* MasonryVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC2.m; sourceTree = "<group>"; };
+		D051459D224B154900F11778 /* MasonryVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasonryVC2.xib; sourceTree = "<group>"; };
+		D05145A1224B15F400F11778 /* Masonry2TVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry2TVCell.h; sourceTree = "<group>"; };
+		D05145A2224B15F400F11778 /* Masonry2TVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry2TVCell.m; sourceTree = "<group>"; };
+		D05145A3224B15F400F11778 /* Masonry2TVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Masonry2TVCell.xib; sourceTree = "<group>"; };
 		D07F03FC21E83EC300B19E34 /* 练习Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "练习Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F03FF21E83EC300B19E34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D07F040021E83EC300B19E34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +96,9 @@
 		D07F040B21E83EC800B19E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D07F040D21E83EC800B19E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07F040E21E83EC800B19E34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0EE8C852215015500EA8A37 /* myCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myCustomView.h; sourceTree = "<group>"; };
+		D0EE8C862215015500EA8A37 /* myCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCustomView.m; sourceTree = "<group>"; };
+		E4AF8BC97644842485730BC2 /* Pods-练习Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-练习Demo.release.xcconfig"; path = "Target Support Files/Pods-练习Demo/Pods-练习Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +106,154 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0854B21CB56D21DCBF685BE /* libPods-练习Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B6CBF6A75D8559E357CF5C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D164D5B0DF2F00D6646392 /* Pods-练习Demo.debug.xcconfig */,
+				E4AF8BC97644842485730BC2 /* Pods-练习Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		719D8AC8FAC7BDC65A603185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864A03A7D79FA2C60E1D48B0 /* libPods-练习Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D011230E2241E5FA003C6181 /* reactivecocoaShow */ = {
+			isa = PBXGroup;
+			children = (
+				D01123122241E649003C6181 /* Model */,
+				D01123112241E635003C6181 /* ViewModel */,
+				D01123102241E61D003C6181 /* View */,
+				D011230F2241E60E003C6181 /* ViewController */,
+			);
+			path = reactivecocoaShow;
+			sourceTree = "<group>";
+		};
+		D011230F2241E60E003C6181 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01123132241E683003C6181 /* ReactiveObjcVC.h */,
+				D01123142241E683003C6181 /* ReactiveObjcVC.m */,
+				D01123152241E683003C6181 /* ReactiveObjcVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D01123102241E61D003C6181 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D02780ED22431D82009601FC /* delegateForRACView.h */,
+				D02780EE22431D82009601FC /* delegateForRACView.m */,
+				D02780F1224323CB009601FC /* delegateForRACView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D01123112241E635003C6181 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D01123122241E649003C6181 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0286D602249C32100BFFD27 /* customObject */ = {
+			isa = PBXGroup;
+			children = (
+				D0286D612249C37500BFFD27 /* MyTVDataSource.h */,
+				D0286D622249C37500BFFD27 /* MyTVDataSource.m */,
+			);
+			path = customObject;
+			sourceTree = "<group>";
+		};
+		D0286D642249C75700BFFD27 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D0514596224B13C900F11778 /* FDFeedEntity.h */,
+				D0514597224B13C900F11778 /* FDFeedEntity.m */,
+				D0514599224B143C00F11778 /* data.json */,
+				D0286D652249C79200BFFD27 /* masonryModel.h */,
+				D0286D662249C79200BFFD27 /* masonryModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D034B1D22251ABEA0025D74E /* useSwiftKu */ = {
+			isa = PBXGroup;
+			children = (
+				D034B1D42251AC490025D74E /* Test.swift */,
+				D034B1D62251AE060025D74E /* Test2.swift */,
+				D034B1D32251AC480025D74E /* 练习Demo-Bridging-Header.h */,
+			);
+			path = useSwiftKu;
+			sourceTree = "<group>";
+		};
+		D05145A0224B15AD00F11778 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D05145A1224B15F400F11778 /* Masonry2TVCell.h */,
+				D05145A2224B15F400F11778 /* Masonry2TVCell.m */,
+				D00CC2BD225C99C20018F999 /* Masonry4TVCell.h */,
+				D00CC2BE225C99C20018F999 /* Masonry4TVCell.m */,
+				D0145DE5225EEF2000C260E2 /* Masonry5TVCell.h */,
+				D0145DE6225EEF2000C260E2 /* Masonry5TVCell.m */,
+				D00CC2BF225C99C20018F999 /* Masonry4TVCell.xib */,
+				D05145A3224B15F400F11778 /* Masonry2TVCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D05C71A42248CC2B00A5A06C /* masonryUser */ = {
+			isa = PBXGroup;
+			children = (
+				D05145A0224B15AD00F11778 /* view */,
+				D0286D642249C75700BFFD27 /* model */,
+				D0286D602249C32100BFFD27 /* customObject */,
+				D0286D5A2249BC8300BFFD27 /* MasonryUserVC.h */,
+				D0286D5B2249BC8300BFFD27 /* MasonryUserVC.m */,
+				D0286D5C2249BC8300BFFD27 /* MasonryUserVC.xib */,
+				D0286D6B2249CE0500BFFD27 /* MasonryVC1.h */,
+				D0286D6C2249CE0500BFFD27 /* MasonryVC1.m */,
+				D0286D6D2249CE0500BFFD27 /* MasonryVC1.xib */,
+				D051459B224B154900F11778 /* MasonryVC2.h */,
+				D051459C224B154900F11778 /* MasonryVC2.m */,
+				D00CC2B3225C76650018F999 /* MasonryVC3.h */,
+				D00CC2B4225C76650018F999 /* MasonryVC3.m */,
+				D00CC2B8225C97070018F999 /* MasonryVC4.h */,
+				D00CC2B9225C97070018F999 /* MasonryVC4.m */,
+				D0145DE2225EEEBC00C260E2 /* MasonryVC5.h */,
+				D0145DE3225EEEBC00C260E2 /* MasonryVC5.m */,
+				D00CC2B5225C76650018F999 /* MasonryVC3.xib */,
+				D051459D224B154900F11778 /* MasonryVC2.xib */,
+			);
+			path = masonryUser;
+			sourceTree = "<group>";
+		};
 		D07F03F321E83EC300B19E34 = {
 			isa = PBXGroup;
 			children = (
 				D07F03FE21E83EC300B19E34 /* 练习Demo */,
 				D07F03FD21E83EC300B19E34 /* Products */,
+				2B6CBF6A75D8559E357CF5C2 /* Pods */,
+				719D8AC8FAC7BDC65A603185 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +268,16 @@
 		D07F03FE21E83EC300B19E34 /* 练习Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D034B1D22251ABEA0025D74E /* useSwiftKu */,
+				D05C71A42248CC2B00A5A06C /* masonryUser */,
+				D011230E2241E5FA003C6181 /* reactivecocoaShow */,
 				D07F03FF21E83EC300B19E34 /* AppDelegate.h */,
 				D07F040021E83EC300B19E34 /* AppDelegate.m */,
 				D07F040221E83EC300B19E34 /* ViewController.h */,
 				D07F040321E83EC300B19E34 /* ViewController.m */,
+				D0EE8C852215015500EA8A37 /* myCustomView.h */,
+				D0EE8C862215015500EA8A37 /* myCustomView.m */,
+				D02780F022431DAE009601FC /* PrefixHeader.pch */,
 				D07F040521E83EC300B19E34 /* Main.storyboard */,
 				D07F040821E83EC800B19E34 /* Assets.xcassets */,
 				D07F040A21E83EC800B19E34 /* LaunchScreen.storyboard */,
@@ -78,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D07F041221E83EC800B19E34 /* Build configuration list for PBXNativeTarget "练习Demo" */;
 			buildPhases = (
+				B5FCFE8BDE319D74CB3D6D5D /* [CP] Check Pods Manifest.lock */,
 				D07F03F821E83EC300B19E34 /* Sources */,
 				D07F03F921E83EC300B19E34 /* Frameworks */,
 				D07F03FA21E83EC300B19E34 /* Resources */,
@@ -102,6 +319,7 @@
 				TargetAttributes = {
 					D07F03FB21E83EC300B19E34 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -128,22 +346,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05145A5224B15F400F11778 /* Masonry2TVCell.xib in Resources */,
 				D07F040C21E83EC800B19E34 /* LaunchScreen.storyboard in Resources */,
+				D00CC2C1225C99C20018F999 /* Masonry4TVCell.xib in Resources */,
+				D00CC2B7225C76650018F999 /* MasonryVC3.xib in Resources */,
+				D01123172241E683003C6181 /* ReactiveObjcVC.xib in Resources */,
+				D02780F2224323CB009601FC /* delegateForRACView.xib in Resources */,
+				D051459A224B143C00F11778 /* data.json in Resources */,
+				D0286D6F2249CE0500BFFD27 /* MasonryVC1.xib in Resources */,
+				D0286D5E2249BC8300BFFD27 /* MasonryUserVC.xib in Resources */,
 				D07F040921E83EC800B19E34 /* Assets.xcassets in Resources */,
 				D07F040721E83EC300B19E34 /* Main.storyboard in Resources */,
+				D051459F224B154900F11778 /* MasonryVC2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5FCFE8BDE319D74CB3D6D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-练习Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D07F03F821E83EC300B19E34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0286D6E2249CE0500BFFD27 /* MasonryVC1.m in Sources */,
+				D01123162241E683003C6181 /* ReactiveObjcVC.m in Sources */,
 				D07F040421E83EC300B19E34 /* ViewController.m in Sources */,
+				D0145DE7225EEF2000C260E2 /* Masonry5TVCell.m in Sources */,
+				D034B1D72251AE060025D74E /* Test2.swift in Sources */,
+				D034B1D52251AC490025D74E /* Test.swift in Sources */,
+				D02780EF22431D82009601FC /* delegateForRACView.m in Sources */,
+				D0EE8C872215015500EA8A37 /* myCustomView.m in Sources */,
+				D0514598224B13C900F11778 /* FDFeedEntity.m in Sources */,
 				D07F040F21E83EC800B19E34 /* main.m in Sources */,
 				D07F040121E83EC300B19E34 /* AppDelegate.m in Sources */,
+				D0286D632249C37500BFFD27 /* MyTVDataSource.m in Sources */,
+				D00CC2BB225C97070018F999 /* MasonryVC4.m in Sources */,
+				D00CC2C0225C99C20018F999 /* Masonry4TVCell.m in Sources */,
+				D0286D672249C79200BFFD27 /* masonryModel.m in Sources */,
+				D0145DE4225EEEBC00C260E2 /* MasonryVC5.m in Sources */,
+				D00CC2B6225C76650018F999 /* MasonryVC3.m in Sources */,
+				D0286D5D2249BC8300BFFD27 /* MasonryUserVC.m in Sources */,
+				D05145A4224B15F400F11778 /* Masonry2TVCell.m in Sources */,
+				D051459E224B154900F11778 /* MasonryVC2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +552,16 @@
 		};
 		D07F041321E83EC800B19E34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D164D5B0DF2F00D6646392 /* Pods-练习Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B94C4GLS2Q;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/练习Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "练习Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,15 +569,25 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chenxun.--Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "练习Demo/useSwiftKu/练习Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D07F041421E83EC800B19E34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AF8BC97644842485730BC2 /* Pods-练习Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B94C4GLS2Q;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/练习Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "练习Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +595,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chenxun.--Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "练习Demo/useSwiftKu/练习Demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.0)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveObjC
+  - "UITableView+FDTemplateLayoutCell"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ReactiveObjC
+    - "UITableView+FDTemplateLayoutCell"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: 887f5575bdfd0082b545688c1298e73747dbd0db
+
+COCOAPODS: 1.6.1
