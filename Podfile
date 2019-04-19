@@ -9,4 +9,5 @@ target '练习Demo' do
   pod 'ReactiveObjC'
   pod 'Masonry'
   pod 'UITableView+FDTemplateLayoutCell'
+  pod 'MJRefresh'
 end

@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray * muArray;
 @property (nonatomic, strong) MASConstraint *widthConstraint1;
-
+@property (nonatomic, strong) MASConstraint *topConstraint1;
 @end
 
 @implementation MasonryVC2
@@ -26,7 +26,7 @@
     
     [self.bgImage mas_makeConstraints:^(MASConstraintMaker *make) {
 
-        make.top.mas_equalTo(self.mas_topLayoutGuideBottom);
+        self.topConstraint1 = make.top.mas_equalTo(self.mas_topLayoutGuideBottom);
         make.left.and.right.mas_equalTo(self.view);
         self->_widthConstraint1 = make.height.mas_equalTo(ImageMaxHeight);
     }];
@@ -58,10 +58,24 @@
     
     
     [self.tableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
-
-    // Do any additional setup after loading the view from its nib.
+    
+    MJRefreshGifHeader *header = [MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
+    // Hide the time
+    header.lastUpdatedTimeLabel.hidden = YES;
+    
+    // Hide the status
+    header.stateLabel.hidden = YES;
+    // Set header
+    self.tableView.mj_header = header;
 }
 
+- (void)loadNewData{
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        [self.tableView.mj_header endRefreshing];
+    });
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
@@ -99,6 +113,10 @@
 //         改变高度
         if (contentOffset.y < -ImageMaxHeight) {
             _widthConstraint1.equalTo(@(-contentOffset.y));
+            self.topConstraint1.offset(0);
+        }else{
+            self.topConstraint1.offset(-ImageMaxHeight - contentOffset.y);
+            
         }
     }
 }

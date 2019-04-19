@@ -21,6 +21,6 @@
 @property (nonatomic, copy) NSString * textViewStr;
 @property (nonatomic, assign) BOOL isHidden;
 @property (nonatomic, assign) CGSize size;
-
+@property (nonatomic, strong) NSArray * lableArray;
 + (NSArray *)getShuJu;
 @end

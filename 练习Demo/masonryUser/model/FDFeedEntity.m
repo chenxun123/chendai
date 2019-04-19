@@ -22,6 +22,7 @@
         _imageName = dictionary[@"imageName"];
         _textViewStr = @"世界你好！hello world！";
         _isHidden = NO;
+        _lableArray = [self getArray];
     }
     return self;
 }
@@ -47,5 +48,12 @@
     }];
     
     return entities;
+}
+
+- (NSArray *)getArray{
+    
+    NSArray * arr =  @[@[@"dynamically", @"calculates"],@[@"AutoLayout AutoLayout AutoLayout", @"dynamically", @"calculates"],@[@"calculates"]];
+    NSArray * a = arr[arc4random() % 3];
+    return  a;
 }
 @end

@@ -16,6 +16,13 @@
 		D01123172241E683003C6181 /* ReactiveObjcVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01123152241E683003C6181 /* ReactiveObjcVC.xib */; };
 		D0145DE4225EEEBC00C260E2 /* MasonryVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = D0145DE3225EEEBC00C260E2 /* MasonryVC5.m */; };
 		D0145DE7225EEF2000C260E2 /* Masonry5TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0145DE6225EEF2000C260E2 /* Masonry5TVCell.m */; };
+		D01B1FB422641DD0005193AA /* MasonryVC6.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B1FB222641DD0005193AA /* MasonryVC6.m */; };
+		D01B1FB522641DD0005193AA /* MasonryVC6.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01B1FB322641DD0005193AA /* MasonryVC6.xib */; };
+		D01B1FB8226464F2005193AA /* MasonryVC7.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B1FB7226464F2005193AA /* MasonryVC7.m */; };
+		D01B1FBB22646567005193AA /* Masonry7TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B1FBA22646567005193AA /* Masonry7TVCell.m */; };
+		D01B1FBE22647E28005193AA /* jieTiView.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B1FBD22647E28005193AA /* jieTiView.m */; };
+		D01B1FC1226481E6005193AA /* Masonry8TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B1FC0226481E6005193AA /* Masonry8TVCell.m */; };
+		D01B1FC422648590005193AA /* MasonryVC8.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B1FC322648590005193AA /* MasonryVC8.m */; };
 		D02780EF22431D82009601FC /* delegateForRACView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02780EE22431D82009601FC /* delegateForRACView.m */; };
 		D02780F2224323CB009601FC /* delegateForRACView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02780F1224323CB009601FC /* delegateForRACView.xib */; };
 		D0286D5D2249BC8300BFFD27 /* MasonryUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0286D5B2249BC8300BFFD27 /* MasonryUserVC.m */; };
@@ -26,6 +33,8 @@
 		D0286D6F2249CE0500BFFD27 /* MasonryVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0286D6D2249CE0500BFFD27 /* MasonryVC1.xib */; };
 		D034B1D52251AC490025D74E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034B1D42251AC490025D74E /* Test.swift */; };
 		D034B1D72251AE060025D74E /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034B1D62251AE060025D74E /* Test2.swift */; };
+		D05106F322656FAF00E08C50 /* MasonryVC9.m in Sources */ = {isa = PBXBuildFile; fileRef = D05106F122656FAF00E08C50 /* MasonryVC9.m */; };
+		D05106F422656FAF00E08C50 /* MasonryVC9.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05106F222656FAF00E08C50 /* MasonryVC9.xib */; };
 		D0514598224B13C900F11778 /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D0514597224B13C900F11778 /* FDFeedEntity.m */; };
 		D051459A224B143C00F11778 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D0514599224B143C00F11778 /* data.json */; };
 		D051459E224B154900F11778 /* MasonryVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = D051459C224B154900F11778 /* MasonryVC2.m */; };
@@ -60,6 +69,19 @@
 		D0145DE3225EEEBC00C260E2 /* MasonryVC5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC5.m; sourceTree = "<group>"; };
 		D0145DE5225EEF2000C260E2 /* Masonry5TVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry5TVCell.h; sourceTree = "<group>"; };
 		D0145DE6225EEF2000C260E2 /* Masonry5TVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry5TVCell.m; sourceTree = "<group>"; };
+		D01B1FB122641DD0005193AA /* MasonryVC6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC6.h; sourceTree = "<group>"; };
+		D01B1FB222641DD0005193AA /* MasonryVC6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC6.m; sourceTree = "<group>"; };
+		D01B1FB322641DD0005193AA /* MasonryVC6.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasonryVC6.xib; sourceTree = "<group>"; };
+		D01B1FB6226464F2005193AA /* MasonryVC7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC7.h; sourceTree = "<group>"; };
+		D01B1FB7226464F2005193AA /* MasonryVC7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC7.m; sourceTree = "<group>"; };
+		D01B1FB922646567005193AA /* Masonry7TVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry7TVCell.h; sourceTree = "<group>"; };
+		D01B1FBA22646567005193AA /* Masonry7TVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry7TVCell.m; sourceTree = "<group>"; };
+		D01B1FBC22647E28005193AA /* jieTiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jieTiView.h; sourceTree = "<group>"; };
+		D01B1FBD22647E28005193AA /* jieTiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jieTiView.m; sourceTree = "<group>"; };
+		D01B1FBF226481E6005193AA /* Masonry8TVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry8TVCell.h; sourceTree = "<group>"; };
+		D01B1FC0226481E6005193AA /* Masonry8TVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry8TVCell.m; sourceTree = "<group>"; };
+		D01B1FC222648590005193AA /* MasonryVC8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC8.h; sourceTree = "<group>"; };
+		D01B1FC322648590005193AA /* MasonryVC8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC8.m; sourceTree = "<group>"; };
 		D02780ED22431D82009601FC /* delegateForRACView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delegateForRACView.h; sourceTree = "<group>"; };
 		D02780EE22431D82009601FC /* delegateForRACView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateForRACView.m; sourceTree = "<group>"; };
 		D02780F022431DAE009601FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -77,6 +99,9 @@
 		D034B1D32251AC480025D74E /* 练习Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "练习Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		D034B1D42251AC490025D74E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		D034B1D62251AE060025D74E /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		D05106F022656FAF00E08C50 /* MasonryVC9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC9.h; sourceTree = "<group>"; };
+		D05106F122656FAF00E08C50 /* MasonryVC9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC9.m; sourceTree = "<group>"; };
+		D05106F222656FAF00E08C50 /* MasonryVC9.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasonryVC9.xib; sourceTree = "<group>"; };
 		D0514596224B13C900F11778 /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedEntity.h; sourceTree = "<group>"; };
 		D0514597224B13C900F11778 /* FDFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedEntity.m; sourceTree = "<group>"; };
 		D0514599224B143C00F11778 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -215,8 +240,14 @@
 				D00CC2BE225C99C20018F999 /* Masonry4TVCell.m */,
 				D0145DE5225EEF2000C260E2 /* Masonry5TVCell.h */,
 				D0145DE6225EEF2000C260E2 /* Masonry5TVCell.m */,
+				D01B1FB922646567005193AA /* Masonry7TVCell.h */,
+				D01B1FBA22646567005193AA /* Masonry7TVCell.m */,
+				D01B1FBF226481E6005193AA /* Masonry8TVCell.h */,
+				D01B1FC0226481E6005193AA /* Masonry8TVCell.m */,
 				D00CC2BF225C99C20018F999 /* Masonry4TVCell.xib */,
 				D05145A3224B15F400F11778 /* Masonry2TVCell.xib */,
+				D01B1FBC22647E28005193AA /* jieTiView.h */,
+				D01B1FBD22647E28005193AA /* jieTiView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -239,8 +270,18 @@
 				D00CC2B4225C76650018F999 /* MasonryVC3.m */,
 				D00CC2B8225C97070018F999 /* MasonryVC4.h */,
 				D00CC2B9225C97070018F999 /* MasonryVC4.m */,
+				D01B1FB222641DD0005193AA /* MasonryVC6.m */,
 				D0145DE2225EEEBC00C260E2 /* MasonryVC5.h */,
 				D0145DE3225EEEBC00C260E2 /* MasonryVC5.m */,
+				D01B1FB122641DD0005193AA /* MasonryVC6.h */,
+				D01B1FB6226464F2005193AA /* MasonryVC7.h */,
+				D01B1FB7226464F2005193AA /* MasonryVC7.m */,
+				D01B1FC222648590005193AA /* MasonryVC8.h */,
+				D01B1FC322648590005193AA /* MasonryVC8.m */,
+				D05106F022656FAF00E08C50 /* MasonryVC9.h */,
+				D05106F122656FAF00E08C50 /* MasonryVC9.m */,
+				D05106F222656FAF00E08C50 /* MasonryVC9.xib */,
+				D01B1FB322641DD0005193AA /* MasonryVC6.xib */,
 				D00CC2B5225C76650018F999 /* MasonryVC3.xib */,
 				D051459D224B154900F11778 /* MasonryVC2.xib */,
 			);
@@ -298,6 +339,7 @@
 				D07F03F821E83EC300B19E34 /* Sources */,
 				D07F03F921E83EC300B19E34 /* Frameworks */,
 				D07F03FA21E83EC300B19E34 /* Resources */,
+				4DC005146C3A5436B7741455 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,8 +394,10 @@
 				D00CC2B7225C76650018F999 /* MasonryVC3.xib in Resources */,
 				D01123172241E683003C6181 /* ReactiveObjcVC.xib in Resources */,
 				D02780F2224323CB009601FC /* delegateForRACView.xib in Resources */,
+				D05106F422656FAF00E08C50 /* MasonryVC9.xib in Resources */,
 				D051459A224B143C00F11778 /* data.json in Resources */,
 				D0286D6F2249CE0500BFFD27 /* MasonryVC1.xib in Resources */,
+				D01B1FB522641DD0005193AA /* MasonryVC6.xib in Resources */,
 				D0286D5E2249BC8300BFFD27 /* MasonryUserVC.xib in Resources */,
 				D07F040921E83EC800B19E34 /* Assets.xcassets in Resources */,
 				D07F040721E83EC300B19E34 /* Main.storyboard in Resources */,
@@ -364,6 +408,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4DC005146C3A5436B7741455 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-练习Demo/Pods-练习Demo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-练习Demo/Pods-练习Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B5FCFE8BDE319D74CB3D6D5D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,10 +459,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01B1FB8226464F2005193AA /* MasonryVC7.m in Sources */,
 				D0286D6E2249CE0500BFFD27 /* MasonryVC1.m in Sources */,
+				D01B1FB422641DD0005193AA /* MasonryVC6.m in Sources */,
+				D01B1FBB22646567005193AA /* Masonry7TVCell.m in Sources */,
 				D01123162241E683003C6181 /* ReactiveObjcVC.m in Sources */,
 				D07F040421E83EC300B19E34 /* ViewController.m in Sources */,
 				D0145DE7225EEF2000C260E2 /* Masonry5TVCell.m in Sources */,
+				D01B1FC422648590005193AA /* MasonryVC8.m in Sources */,
 				D034B1D72251AE060025D74E /* Test2.swift in Sources */,
 				D034B1D52251AC490025D74E /* Test.swift in Sources */,
 				D02780EF22431D82009601FC /* delegateForRACView.m in Sources */,
@@ -404,10 +474,13 @@
 				D0514598224B13C900F11778 /* FDFeedEntity.m in Sources */,
 				D07F040F21E83EC800B19E34 /* main.m in Sources */,
 				D07F040121E83EC300B19E34 /* AppDelegate.m in Sources */,
+				D01B1FBE22647E28005193AA /* jieTiView.m in Sources */,
 				D0286D632249C37500BFFD27 /* MyTVDataSource.m in Sources */,
 				D00CC2BB225C97070018F999 /* MasonryVC4.m in Sources */,
 				D00CC2C0225C99C20018F999 /* Masonry4TVCell.m in Sources */,
+				D05106F322656FAF00E08C50 /* MasonryVC9.m in Sources */,
 				D0286D672249C79200BFFD27 /* masonryModel.m in Sources */,
+				D01B1FC1226481E6005193AA /* Masonry8TVCell.m in Sources */,
 				D0145DE4225EEEBC00C260E2 /* MasonryVC5.m in Sources */,
 				D00CC2B6225C76650018F999 /* MasonryVC3.m in Sources */,
 				D0286D5D2249BC8300BFFD27 /* MasonryUserVC.m in Sources */,

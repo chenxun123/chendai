@@ -15,7 +15,7 @@
 #import <ReactiveObjC.h>
 #import <Masonry.h>
 #import <UITableView+FDTemplateLayoutCell.h>
-
+#import "MJRefresh.h"
 //Global frames
 #define kScreenWidth [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height
